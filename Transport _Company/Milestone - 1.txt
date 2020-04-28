@@ -1,0 +1,236 @@
+.........................................
+TOPIC : Software for transport company.
+`````````````````````````````````````````
+
+GROUP MEMBERS:
+
+  Amit Aditaya - 1722162
+  Hossain Sahriar Kabir - 1722015 
+
+============================================
+=------------------ USER ------------------=
+============================================
+
+1. Admin
+2. Passenger
+3. Courier service user 
+4. Accounts
+5. Bus Supervisor
+6. Delivery Boy
+
+
+=============================================
+=-------------------EVENT ------------------=
+=============================================
+
+Every user have to login with password and user type. Other wise only name of the company and login box will be shown. 
+
+
+
+1. Admin
+	
+
+	a. User should be able to see all the employee information of this company.
+		i.  user have to login with password and user type as a admin.
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Employee " option from UI.
+		iv. After selecting that option all the  employee name of that company will appear.
+		v. user can able to select a employee's  name to load the information page of that employee.
+
+		
+	b. User should be able to see bus ticket status of this company.
+		i.  user have to login with password and user type as a admin.
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Bus Ticket" option from UI.
+		iv. After selecting that option all the  bus name, number and time will appear.
+		v. user can able to select a bus  to see how many ticket are available.
+
+	
+	c. User should be able to see product delivery shipment status of this company.
+		i.  user have to login with password and user type as a admin.
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Delivery  Shipment " option from UI.
+		iv. After selecting that option all the complete and panding delivery information will appear.
+
+
+
+	d. User can able to give any notice.
+		i.  user have to login with password and user type as a admin. 
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Give Notice " option from UI.
+		iv. After selecting this option a page will be loaded with a blank box. User can be able to write the notice and submit it.
+
+
+
+	e. User can able to use a amount of money for any valid reason from company account.
+		i.  user have to login with password and user type as a admin.
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Use Money " option from UI.
+		iv. After selecting "Use Money" option a page will apear with a "Amount " option, " Money User " option and " details" option .  User have to fill all box to take money. 
+		
+
+
+	f. User should be able to see monthly report of this company.
+		i.  user have to login with password and user type as a admin.
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Monthly Report " option from UI.
+		iv. After selecting that option, 2 more option will appear. "Bus Service" and "Courier Service".
+		v. If user select "Bus Service", than user can see some option. "Total Ticket Sale" , "Total Money" , "Total Trip".
+			If user click on "Total Ticket Sale" than he will see total sold ticket number for a spesific time period. User also can change time period.
+			If user click on "Trip Income" than he will see total earn money for a spesific time period. User also can change time period.
+			If user click on "Total Trip" than he will see total trip number for a spesific time period. User also can change time period.
+		vi. If user select "Courier Service", than user can see some option. "Total Parcel" , "Total Money".
+			If user click on "Total Parcel" than he will see total Parcel number for a spesific time period. User also can change time period.
+			If user click on "Total Income" than he will see total earn money for a spesific time period. User also can change time period.
+			
+
+
+=============================================================================================================================================================================================
+
+
+
+2. Passenger
+	
+
+	a. User should be able to book bus tickets.
+		i. User will have to login with email address & password and user type as "Passenger".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User will choose bus counter (to get on the bus from) and destination from a dropdown box above.
+		iv. Depending on the route, a list of available busses with their time tables will pop up. (e.g. Shohag Elite - 8.30 am (arrival) - 6.00p.m(destination))
+		v. After user clicks on the desired bus, an IU, showing the seat plans will pop up where the already booked seats are marked with red and the available seats marked with green.
+		vi. User will click on any of the 'green' seats and it will immidiately turn red.  
+		vii. User will have to click on the "confirm ticket" button below to book ticket.
+		
+	b. User should be able to complain(Customer service tickets).
+		i. User will have to login with email address & password and user type as "Passenger".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".	
+		iii. User will click on the button that says "Place Complain(will rename later)"	
+		iv. Another window will pop up where the user will be able to type in the complain.
+		v. Once done, User will then click on "create CS ticket/ place complaint" button below, user can also click on a radio button on the side named "request callback".
+	
+
+	c. User should be able to view previously bought tickets along with all the information.	
+		i. User will have to login with email address & password and user type as "Passenger".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".			
+		iii. User will click on "View History"	
+		iv. A non-editable (non-interactable) window will appear which will show all the previously bought ticket details (e.g. route, bus model, time etc.)	
+
+
+	d. User should be able to check bus info.	
+		i. User will have to login with email address & password and user type as "Passenger".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii.User will click on "Bus info".
+		iv. User will choose bus counter (to get on the bus from) and destination from a dropdown box above.	
+		v. A list of buses from that route will pop up, showing all information like travel time, bus model, type of seat, stopages etc.
+
+
+=============================================================================================================================================================================================
+
+
+		
+3. Courier Service user
+
+	a. User should be able send a parcel.
+		i. User will have to login with email address & password and user type as "Courier Service user".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".	
+		iii. From a drop down box, user will select the type of parcel (e.g. fragile, electronic, documents etc.) 	
+		iv. From another dropdown box or calender, user will choose the date to pick up parcel and the date for delivery. 
+		v. User will click on "Send Courier Request" 
+
+
+	b. User should be able to complain(Customer service tickets).
+		i. User will have to login with email address & password and user type as "Courier Service User".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".	
+		iii. User will click on the button that says "Place Complain(will rename later)"	
+		iv. Another window will pop up where the user will be able to type in the complain.
+		v. Once done, User will then click on "create CS ticket/ place complaint" button below, user can also click on a radio button on the side named "request callback".
+
+
+	c. User should be able to view previously sent parcels and view all information.	
+		i. User will have to login with email address & password and user type as "Courier Service User".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".			
+		iii. User will click on "View History"	
+		iv. A non-editable (non-interactable) window will appear which will show all the previously bought courier details (e.g. time taken, items sent etc.)	
+ 
+ 	
+
+	d. User should be able to track parcel. 
+		i. User will have to login with email address & password and user type as "Courier Service User".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".		
+		iii. User will click on track order button.
+		iv. If there is no courier delivery on progress (if order does not exis), a pop up message will say "No orders pending". Else a new window will pop up showling the current location of the parcel and expected delivery time.
+
+=============================================================================================================================================================================================
+
+
+
+4.Accounts.
+
+
+	a. User should be able to view revenue report.
+		i. User will have to login with email address & password and user type as "Accounts".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User will click on the button that says "Revenue report"
+  		iv. A new window will show a table of all the revenue generated in the past (day/week/year) along with the source (e.g. bus, courier etc), similar to a excel spreadsheet.
+ 
+	b. User should be able to view expense reports. 
+
+		i. User will have to login with email address & password and user type as "Accounts".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User will click opn the button that says "Expense report"
+		iv. A  new window will show a table of all the expenses of the company in the past (day/week/year) along with the source (e.g. bus fuel, bus repair, electricity bill etc), similar to a excel spreadsheet.
+	
+ 	c. User should be able to prepare/send salary.
+		i. User will have to login with email address & password and user type as "Accounts".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User will click on "Employee Salary"
+		iv. A new window will appear with the follow bottons --> "Bus Service Employees" , "Courier Service Employees", "Staff" etc.
+		v.  When the user clicks on any of the bottons, a new window will appear which will show all the employee names of that section (e.g. bus service employees)
+		vi. When the user clicks on any of the names, the payment history will pop up (e.g. date of the previous salay and whether it is payed or not)
+		vi. If the date is >= the 1st day of the month and <= 15th day of the month, user will be able to click a botton below which says "Pay salary for (...) month" (for that particlar employee)	
+		vii. Once user hit the ""Pay salary for (...) month" botton, the exact amount will be deducted from the accout and the record will be saved.  
+
+  	
+
+=============================================================================================================================================================================================
+
+
+
+5. Bus Supervisor
+	
+	a. User should be able to see notice send by Admin.
+		i. User will have to login with email address & password and user type as "Supervisor".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Notice " option from UI.
+		iv. Than user will see some notice send by Admin.
+		
+
+	b. User should be able to write a report about last trip.
+		i. User will have to login with email address & password and user type as "Supervisor".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Report" option from UI.
+		iv. Than user can write a report about his last trip. User make a report about total oil cost, toll cost, total Passenger and bus condition.
+
+
+
+=============================================================================================================================================================================================
+
+
+6. Delivery Boy
+	
+	a. User should be able to see notice send by Admin.
+		i. User will have to login with email address & password and user type as "Delivery Boy".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Notice " option from UI.
+		iv. Than user will see some notice send by Admin.
+		
+
+	b. User should be able to write a report about last product delivery.
+		i. User will have to login with email address & password and user type as "Delivery Boy".
+		ii. If login is successful, user specific UI will appear . Else show "Login Failed".
+		iii. User should select " Report" option from UI.
+		iv. Than user can write a report about his last product delivery. User mark a check box as delivery complete. And write delivery time.
+
+
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ModifyFXMLController">
+   <children>
+      <ComboBox fx:id="fromComboBox" layoutX="124.0" layoutY="84.0" onAction="#fromComboBoxIsUpdate" prefWidth="150.0" />
+      <Label layoutX="124.0" layoutY="129.0" text="You Select" />
+      <Label fx:id="fromLabel" layoutX="199.0" layoutY="129.0" text="Label" />
+      <TextField fx:id="maxWeightTextField" layoutX="357.0" layoutY="84.0" prefHeight="26.0" prefWidth="190.0" promptText="Enter Max Weight" />
+      <Button fx:id="searchParcelButton" layoutX="131.0" layoutY="162.0" mnemonicParsing="false" onAction="#searchParcelButtonOnClick" prefHeight="35.0" prefWidth="164.0" text="Search Parcel" />
+      <TextArea fx:id="outputTextArea" layoutX="122.0" layoutY="232.0" prefHeight="200.0" prefWidth="675.0" />
+      <Label layoutX="124.0" layoutY="485.0" text="If Parcel Weight is Less than 1 kg, Strore This parcel Informaton at ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="513.0" text="LightParcel.txt">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="writeToTextFile" layoutX="387.0" layoutY="526.0" mnemonicParsing="false" onAction="#writeToTextFileOnClick" prefHeight="35.0" prefWidth="208.0" text="Write To Text File" />
+   </children>
+</AnchorPane>

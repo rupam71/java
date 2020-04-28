@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.SendSalaryController">
+   <children>
+      <Label layoutX="406.0" layoutY="24.0" text="Send Salary">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="employeeViewButton" layoutX="613.0" layoutY="464.0" mnemonicParsing="false" onAction="#employeeViewButtonOnClick" prefHeight="34.0" prefWidth="165.0" text="Details View" />
+      <Button fx:id="sendSalaryButton" layoutX="406.0" layoutY="172.0" mnemonicParsing="false" onAction="#sendSalaryButtonOnClick" prefHeight="34.0" prefWidth="109.0" text="Send Salary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="employeeNameTextFeild" layoutX="217.0" layoutY="78.0" onMouseClicked="#employeeIdTextFeildOnClick" prefHeight="26.0" prefWidth="216.0" promptText="Enter Employee Name" />
+      <TextField fx:id="salaryTextFeild" layoutX="217.0" layoutY="120.0" prefHeight="26.0" prefWidth="216.0" promptText="Enter Employee Salary" />
+      <TextField fx:id="idTextFeild" layoutX="489.0" layoutY="78.0" prefHeight="26.0" prefWidth="216.0" promptText="Enter Employee Id" />
+      <TextField fx:id="typeTextField" layoutX="489.0" layoutY="120.0" prefHeight="26.0" prefWidth="216.0" promptText="Enter Employee Type" />
+      <TableView fx:id="tableView" layoutX="111.0" layoutY="233.0" prefHeight="200.0" prefWidth="667.0">
+        <columns>
+          <TableColumn fx:id="nameColoumn" prefWidth="180.80001068115234" text="Name" />
+          <TableColumn fx:id="idColoumn" prefWidth="145.5999755859375" text="Id" />
+            <TableColumn fx:id="salaryColoumn" prefWidth="176.00003051757812" text="Salary" />
+            <TableColumn fx:id="typeColoumn" prefWidth="165.5999755859375" text="Type" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

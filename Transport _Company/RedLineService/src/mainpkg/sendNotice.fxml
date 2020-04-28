@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.SendNoticeController">
+   <children>
+      <Label layoutX="262.0" layoutY="48.0" text="Send Notice">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="81.0" text="Write Your Notice.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="sendButton" layoutX="487.0" layoutY="319.0" mnemonicParsing="false" onAction="#sendButtonOnclick" text="Send">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="163.0" layoutY="106.0" text="Remembar : Your Notice Will Visible To All User.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="noticeTextArea" layoutX="72.0" layoutY="139.0" onMouseClicked="#noticeTextAreaOnClick" prefHeight="167.0" prefWidth="459.0" />
+   </children>
+</AnchorPane>

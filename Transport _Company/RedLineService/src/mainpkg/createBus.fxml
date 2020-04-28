@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.CreateBusController">
+   <children>
+      <Label layoutX="244.0" layoutY="38.0" text="Create New Bus">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="busIdTextFeild" layoutX="166.0" layoutY="95.0" prefHeight="26.0" prefWidth="238.0" promptText="Bus Id" />
+      <TextField fx:id="busNameTextFeild" layoutX="166.0" layoutY="132.0" prefHeight="26.0" prefWidth="238.0" promptText="Bus name" />
+      <TextField fx:id="busGoingToTextFeild" layoutX="166.0" layoutY="239.0" prefHeight="26.0" prefWidth="238.0" promptText="To" />
+      <TextField fx:id="busTotalSeatTextLabel" layoutX="166.0" layoutY="276.0" prefHeight="26.0" prefWidth="238.0" promptText="Total Seat" />
+      <TextField fx:id="busCouchTextFeild" layoutX="166.0" layoutY="168.0" prefHeight="26.0" prefWidth="238.0" promptText="Bus Couch" />
+      <TextField fx:id="busStartFromTextFeild" layoutX="166.0" layoutY="205.0" prefHeight="26.0" prefWidth="238.0" promptText="From" />
+      <Button fx:id="createNewBusButton" layoutX="169.0" layoutY="324.0" mnemonicParsing="false" onAction="#createNewBusButtonOnClick" prefHeight="35.0" prefWidth="238.0" text="Create New Bus">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

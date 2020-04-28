@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="accountOfficerBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.AccountOfficerController">
+   <top>
+      <AnchorPane fx:id="accountOfficerAnchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="754.0" layoutY="14.0" text="Login As Account Officer" />
+            <Label layoutX="99.0" layoutY="85.0" text="Red Line Service" AnchorPane.leftAnchor="99.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <MenuBar layoutX="-273.0" layoutY="143.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Arrange">
+                  <items>
+                    <MenuItem fx:id="sendSalaryMenyItem" mnemonicParsing="false" onAction="#sendSalaryMenyItemOnClick" text="Send Salary" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                  <items>
+                    <MenuItem fx:id="revenueReportMenuItem" mnemonicParsing="false" onAction="#revenueReportMenuItemOnClick" text="Revenue Report" />
+                        <MenuItem fx:id="expenceReportMenuItem" mnemonicParsing="false" onAction="#expenceReportMenuItemOnClick" text="Expence Report" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button fx:id="logoutButton" layoutX="830.0" layoutY="38.0" mnemonicParsing="false" onAction="#logoutButtonOnClick" text="Logout" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

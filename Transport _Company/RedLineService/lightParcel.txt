@@ -1,0 +1,2 @@
+Parcel Name: Mobile 3, Parcel No: 4, Parcel From: Chittagong, Parcel To: Dhaka, Parcel Sending Date: 09-12-2019, Parcel Weight: 1.0, Parcel Sender: Alal, Parcel Sender No: 512
+Parcel Name: Cloth, Parcel No: 5, Parcel From: Chittagong, Parcel To: Dhaka, Parcel Sending Date: 09-12-2019, Parcel Weight: 0.8, Parcel Sender: Alom, Parcel Sender No: 512

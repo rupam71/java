@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="passengerBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PassengerController">
+   <top>
+      <AnchorPane fx:id="passengerAnchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar layoutX="111.0" layoutY="174.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Ticket">
+                  <items>
+                    <MenuItem fx:id="bookingBusTicketMenuItem" mnemonicParsing="false" onAction="#bookingBusTicketMenuItemOnClick" text="Booking Bus Ticket" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                  <items>
+                    <MenuItem fx:id="ticketHistoryMenuItem" mnemonicParsing="false" onAction="#ticketHistoryMenuItemOnClick" text="View History" />
+                        <MenuItem fx:id="busInfoMenuItem" mnemonicParsing="false" onAction="#busInfoMenuItemOnClick" text="Bus Info" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem fx:id="createComplainMenuItem" mnemonicParsing="false" onAction="#createComplainMenuItemOnClick" text="Create Complain" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button fx:id="logoutButton" layoutX="831.0" layoutY="54.0" mnemonicParsing="false" onAction="#logoutButtonOnClick" text="Logout" />
+            <Label layoutX="105.0" layoutY="85.0" text="Red Line Service" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="782.0" layoutY="14.0" text="Login As Passenger" />
+            <Label layoutX="776.0" layoutY="32.0" text="User : Hasanat Karim" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

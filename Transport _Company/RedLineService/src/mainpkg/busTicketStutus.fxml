@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.BusTicketStutusController">
+   <children>
+      <TableView fx:id="tableView" layoutX="111.0" layoutY="151.0" prefHeight="339.0" prefWidth="678.0" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="111.0">
+         <columns>
+            <TableColumn fx:id="busNameTableColoumn" prefWidth="229.60003662109375" text="Bus Name" />
+            <TableColumn fx:id="numberTableColoumn" prefWidth="165.60003662109375" text="Number" />
+            <TableColumn fx:id="timeTableColoumn" prefWidth="157.60000610351562" text="Time" />
+            <TableColumn fx:id="seatTableColoumn" prefWidth="124.7999267578125" text="Available Seat" />
+         </columns>
+      </TableView>
+      <Label layoutX="381.0" layoutY="71.0" text="Bus Ticket Stutus">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="adminBorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.AdminController">
+   <top>
+      <AnchorPane fx:id="adminAnchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar layoutY="173.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="173.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem fx:id="createNewBusMenuItem" mnemonicParsing="false" onAction="#createNewBusMenuItemOnClick" text="Create New Bus" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Account">
+                     <items>
+                        <MenuItem fx:id="useMoneyMenuItem" mnemonicParsing="false" onAction="#useMoneyMenuItemOnclick" text="Use Money " />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Notice">
+                     <items>
+                        <MenuItem fx:id="sendNoticeMenuItem" mnemonicParsing="false" onAction="#sendNoticeMenuItemOnClick" text="Send Notice" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="View">
+                     <items>
+                        <MenuItem fx:id="busTicketStutusMenuItem" mnemonicParsing="false" onAction="#busTicketStutusMenuItemOnClick" text="Bus Ticket" />
+                        <MenuItem fx:id="showEmployeeInfoMenuItem" mnemonicParsing="false" onAction="#showEmployeeInfoMenuItemOnClick" text="Emplyee Information" />
+                        <MenuItem fx:id="appParcelInfoMenuItem" mnemonicParsing="false" onAction="#appParcelInfoMenuItemOnClick" text="Delivery  Shipment" />
+                        <MenuItem fx:id="monthlyReportMenuItem" mnemonicParsing="false" onAction="#monthlyReportMenuItemOnClick" text="Monthly Report" />
+                        <MenuItem fx:id="allComplainMenuItem" mnemonicParsing="false" onAction="#allComplainMenuItemOnClick" text="All Complain" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <Label fx:id="loginAccountOfficer" layoutX="738.0" layoutY="14.0" text="Login as Admin" textFill="#1c2ae2" AnchorPane.rightAnchor="14.000000000000043">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="71.0" layoutY="88.0" text="Red Line Service" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="774.0" layoutY="71.0" textFill="#1c2ae2" underline="true" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="logoutButton" layoutX="832.0" layoutY="39.0" mnemonicParsing="false" onAction="#logoutButtonOnClick" text="Logout" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

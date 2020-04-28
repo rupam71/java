@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.TotalExpenseReportController">
+   <children>
+      <TextArea fx:id="outputTextArea" layoutX="334.0" layoutY="270.0" prefHeight="294.0" prefWidth="700.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+      <Label layoutX="380.0" layoutY="94.0" text="Expense Report">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="loadButton" layoutX="100.0" layoutY="132.0" mnemonicParsing="false" onAction="#loadButtonOnClick" prefHeight="35.0" prefWidth="139.0" text="Load Expense Report" />
+   </children>
+</AnchorPane>
