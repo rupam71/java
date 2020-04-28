@@ -1,0 +1,20 @@
+Topics to be covered on 30-03-2019:
+-----------------------------------
+
+1) using RadioButton
+2) Switching Scenes / launching new Stage
+3) Updating TableView
+4) Add Object instance to TableView
+5) Passing information between Scenes
+6) Introduction to MenuBar, Menu & MenuItem
+
+Topics to be covered on Last Week:
+-----------------------------------
+1) Deleting row (s) from TableView
+2) FileChooser to open & save file (s)
+3) 
+4) 
+
+
+
+
